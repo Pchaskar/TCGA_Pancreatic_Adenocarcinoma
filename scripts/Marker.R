@@ -1,0 +1,203 @@
+pc_markers <- c("CD3[DEG]", "DCN", "COL1A1", "FAP")
+
+lit_panc <- c(
+  "KRAS",
+  "MYC",
+  "EGFR",
+  "MET",
+  "CCND1",
+  "AKT1",
+  "PIK3CA",
+  "FOS",
+  "JUN",
+  "ATM",
+  "ATR",
+  "RAD51",
+  "FANCD2",
+  "AFF3",
+  "ROS1",
+  "GJB5",
+  "TMEM139",
+  "TFF3",
+  "ENPP2",
+  "CTGF",
+  "PLIN2",
+  "HHIP",
+  "AHNAK",
+  "CK17",
+  "GATA6",
+  "CK19",
+  "CD3D",
+  "CD3E",
+  "CD3G",
+  "DCN",
+  "COL1A1",
+  "FAP"
+)
+
+# These genes collectively represent the neuroendocrine cell lineage
+neuro_endo <- c(
+  "CHGA",
+  "SYP",
+  "NSE",
+  "NCAM1",
+  "MKI67",
+  "INS",
+  "GCG",
+  "SST",
+  "GAST",
+  "VIP",
+  "TP53",
+  "RB1",
+  "DAXX",
+  "ATRX",
+  "MEN1",
+  "KRAS",
+  "SMAD4",
+  "ARX",
+  "PDX1",
+  "MTOR",
+  "RPS6KB1",
+  "SSTR2A"
+)
+
+gene_sig_15 <-     c(
+  "CAPN8",
+  "HIST1H3H",
+  "IGF2BP3",
+  "KIF14",
+  "KRT6A",
+  "PMAIP1",
+  "PPBP",
+  "RTKN2",
+  "SCEL",
+  "SERPINB5",
+  "SLC2A1",
+  "SLC45A3",
+  "TMPRSS3",
+  "UCA1"
+)
+
+# Creating the Classical vector
+classical <- c(
+  "BTNL8",
+  "FAM3D",
+  "PRR15L",
+  "AGR3",
+  "CTSE",
+  "LYZ",
+  "TFF2",
+  "TFF1",
+  "ANXA10",
+  "LGALS4",
+  "PLA2G10",
+  "CEACAM6",
+  "VSIG2",
+  "TSPAN8",
+  "ST6GALNAC1",
+  "AGR2",
+  "TFF3",
+  "CYP3A7",
+  "MYO1A",
+  "CLRN3",
+  "KRT20",
+  "CDH17",
+  "SPINK4",
+  "REG4"
+)
+
+# Creating the Basal vector
+basal <- c(
+  "VGLL1",
+  "UCA1",
+  "S100A2",
+  "LY6D",
+  "SPRR3",
+  "SPRR1B",
+  "LEMD1",
+  "KRT15",
+  "CTSV",
+  "DHRS9",
+  "AREG",
+  "CST6",
+  "SERPINB3",
+  "KRT6A",
+  "SERPINB4",
+  "FAM83A",
+  "SCEL",
+  "FGFBP1",
+  "KRT7",
+  "KRT17",
+  "GPR87",
+  "TNS4",
+  "SLC2A1",
+  "ANXA8L1"
+)
+
+# EMT
+emt <- c(
+  "SERPINE1",
+  "TGFBI",
+  "MMP10",
+  "LAMC2",
+  "P4HA2",
+  "PDPN",
+  "ITGA5",
+  "LAMA3",
+  "CDH13",
+  "TNC",
+  "MMP2",
+  "EMP3",
+  "INHBA",
+  "LAMB3",
+  "VIM",
+  "SEMA3C",
+  "CAVIN3",
+  "ANXA5",
+  "DHRS7",
+  "ITGB1",
+  "ACTN1",
+  "ACKR3",
+  "ITGB6",
+  "IGFBP7",
+  "THBS1",
+  "PTHLH",
+  "TNFRSF6B",
+  "PDLIM7",
+  "CAV1",
+  "DKK3",
+  "COL17A1",
+  "LTBP1",
+  "COL5A2",
+  "COL1A1",
+  "FHL2",
+  "TIMP3",
+  "PLAU",
+  "LGALS1",
+  "PSMD2",
+  "CD63",
+  "HERPUD1",
+  "TPM1",
+  "SLC39A14",
+  "C1S",
+  "MMP1",
+  "EXT2",
+  "COL4A2",
+  "PRSS23",
+  "SLC7A8",
+  "SLC31A2"
+)
+
+# Marker colors
+col.blca = c(
+  basal = "#5B0000",
+  classical = "#002B5B",
+  neuro_endo = "#3B003B",
+  gene_sig_15 = "#004D00",
+  emt = "#5B2C00"
+)
+
+#Deep Blue: #002B5B
+#Dark Red: #5B0000
+#Rich Green: #004D00
+#Vivid Purple: #3B003B
